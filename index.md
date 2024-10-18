@@ -52,7 +52,6 @@ title: Junyoung + Thuc Anh
     <p>Date & Time: Saturday, January 11th, 2025, 7:00 PM</p>
     <p>·</p>
     <p>RSVP</p>
-</div>
         </div>
     </section>
 
