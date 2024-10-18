@@ -33,21 +33,20 @@ title: Junyoung + Thuc Anh
         </div>
 
 <div style="text-align: center;">
-    <p>Two countries, once far apart,</p>
-    <p>now united in a single journey of love.</p>
+    <p>We come from different countries,</p>
+    <p>but have found a shared path through love.</p>
     <p>·</p>
-    <p>Though we speak different languages,</p>
-    <p>and come from different worlds,</p>
-    <p>we choose to live with understanding,</p>
+    <p>Our languages may differ,</p>
+    <p>and our homelands are far apart.</p>
+    <p>However, we choose to live with understanding,</p>
     <p>with respect and care for one another.</p>
     <p>·</p>
     <p>After many tearful goodbyes at the airport,</p>
-    <p>we've promised to never part again,</p>
+    <p>we've promised to never apart again,</p>
     <p>and to board the same flight for the rest of our lives.</p>
     <p>·</p>
     <p>We would be honored if you could join us</p>
-    <p>at the beginning of this new chapter,</p>
-    <p>a moment we will treasure always.</p>
+    <p>at the beginning of our new chapter.</p>
     <p>·</p>
     <p>Location: <strong><a href="#location">La Vela Saigon</a></strong></p>
     <p>Date & Time: Saturday, January 11th, 2025, 7:00 PM</p>
