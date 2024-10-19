@@ -60,7 +60,7 @@ title: Junyoung + Thuc Anh
     <p>at the beginning of our new chapter.</p>
     <p>·</p>
     <p>Location: <strong><a href="#location">La Vela Saigon</a></strong></p>
-    <img src="/homepage/calender.jpg" alt="calender" style="width: 80px; height: 80px;">
+    <img src="/homepage/calender.jpg" alt="calender" style="width: 300px; height: 300px;">
 
   
     <p>Date: Saturday, January 11th, 2025, 6:30 PM</p>
