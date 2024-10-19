@@ -4,6 +4,14 @@ home_text: request the pleasure of your company to celebrate our marriage
 title: Junyoung + Thuc Anh
 ---
 
+<head>
+  <!-- Add the preload link for NotoSerifKR font here -->
+  <link rel="preload" href="/homepage/fonts/NotoSerifKR-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+
+  <!-- Other metadata or stylesheets -->
+</head>
+
+
 <!-- Sticky Header with Navigation Links -->
 <header class="sticky-header">
     <nav>
