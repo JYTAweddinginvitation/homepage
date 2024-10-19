@@ -4,12 +4,13 @@ home_text: request the pleasure of your company to celebrate our marriage
 title: Junyoung + Thuc Anh
 ---
 
+
 <head>
-  <!-- Add the preload link for NotoSerifKR font here -->
-<!-- Preload the WOFF2 font -->
-<link rel="preload" href="/homepage/fonts/NotoSerifKR-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="/homepage/fonts/NotoSerifKR-Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
-<link rel="preload" href="/homepage/fonts/NotoSerifKR-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <!-- Google Fonts for Noto Serif KR -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+
   <!-- Other metadata or stylesheets -->
 </head>
 
