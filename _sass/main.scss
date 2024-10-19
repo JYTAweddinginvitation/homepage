@@ -13,11 +13,12 @@
 /* Ensure multiple formats for broader compatibility */
 @font-face {
   font-family: 'NotoSerifKR';
-  src: url('/homepage/fonts/NotoSerifKR-Bold.woff2') format('woff2'),
-       url('/homepage/fonts/NotoSerifKR-Bold.woff') format('woff'),
-       url('/homepage/fonts/NotoSerifKR-Bold.ttf') format('truetype');
+  src: url('../fonts/NotoSerifKR-Bold.woff2') format('woff2'),
+       url('../fonts/NotoSerifKR-Bold.woff') format('woff'),
+       url('../fonts/NotoSerifKR-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
+  font-display: swap; /* Ensure text is visible while loading the font */
 }
 
 /* Apply the custom font globally with !important */
