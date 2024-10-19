@@ -66,6 +66,30 @@ title: Junyoung + Thuc Anh
         </div>
     </section>
 
+    <div class="countdown-container">
+        <h2>D-Day Countdown</h2>
+        <p>There are <strong id="days-left"></strong> days left until the big day!</p>
+    </div>
+
+    <script>
+        // Function to calculate and update the days left
+        function updateCountdown() {
+            const weddingDate = new Date("January 11, 2025").getTime();
+            const today = new Date().getTime();
+            const timeDifference = weddingDate - today;
+
+            // Convert time difference from milliseconds to days
+            const daysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+
+            // Update the countdown display
+            document.getElementById("days-left").textContent = daysLeft;
+        }
+
+        // Call the function to update the countdown
+        updateCountdown();
+    </script>
+
+
   <hr>
 
     <!-- Gallery Section -->
