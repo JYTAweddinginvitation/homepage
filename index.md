@@ -83,7 +83,7 @@ title: Junyoung + Thuc Anh
 
             let countdownMessage = "";
             if (daysDifference > 0) {
-                countdownMessage = `There are ${daysDifference} days left until our Wedding day!`;
+                countdownMessage = `There are ${daysDifference} days left until our Wedding day`;
             } else if (daysDifference === 0) {
                 countdownMessage = "Today is our Wedding day";
             } else {
