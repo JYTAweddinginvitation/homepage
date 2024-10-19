@@ -22,19 +22,21 @@
 }
 
 /* Apply the custom font globally with !important */
+html, body {
+  font-family: 'NotoSerifKR' !important, sans-serif;
+}
+
 html {
   --primary-background-color: white;
   --primary-text-color: #555; /* Softer gray instead of black */
   --primary-highlight-color: #eeeeee;
   padding: 0;
   margin: 0;
-  font-family: 'NotoSerifKR' !important, sans-serif; /* Force custom font globally */
 }
 
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  font-family: 'NotoSerifKR' !important, sans-serif; /* Force custom font globally */
   transition: background 0.1s ease-in, color 0.1s ease-in;
   margin: 0 auto;
   max-width: 480px; /* Ensure content is limited to 480px */
@@ -64,9 +66,10 @@ body {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
-    font-family: 'NotoSerifKR' !important, sans-serif; /* Force custom font for headings */
   }
 }
+
+/* Keep the rest of your CSS the same */
 
 .sub-heading {
   width: 80%;
