@@ -133,6 +133,11 @@ title: Junyoung + Thuc Anh
 
 <!-- Additional Styling -->
 <style>
+    /* Apply Noto Serif KR from Google Fonts globally */
+    html, body {
+        font-family: 'Noto Serif KR', serif !important;
+    }
+
     /* Center-align section titles */
     section h2 {
         text-align: center;
