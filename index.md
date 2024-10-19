@@ -85,11 +85,11 @@ title: Junyoung + Thuc Anh
 
             let countdownMessage = "";
             if (daysDifference > 0) {
-                countdownMessage = `There are ${daysDifference} days left until the big day!`;
+                countdownMessage = `There are ${daysDifference} days left until our Wedding day!`;
             } else if (daysDifference === 0) {
-                countdownMessage = "Today is the big day!";
+                countdownMessage = "Today is our Wedding day";
             } else {
-                countdownMessage = `It has been ${Math.abs(daysDifference)} days since the big day!`;
+                countdownMessage = `It has been ${Math.abs(daysDifference)} days since our Wedding day`;
             }
 
             // Update the countdown display
