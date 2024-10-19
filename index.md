@@ -6,8 +6,14 @@ title: Junyoung + Thuc Anh
 
 <head>
   <!-- Add the preload link for NotoSerifKR font here -->
-  <link rel="preload" href="/homepage/fonts/NotoSerifKR-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+<!-- Preload the WOFF2 font -->
+<link rel="preload" href="/homepage/fonts/NotoSerifKR-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
+<!-- Preload the WOFF font -->
+<link rel="preload" href="/homepage/fonts/NotoSerifKR-Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
+
+<!-- Preload the TTF font (fallback) -->
+<link rel="preload" href="/homepage/fonts/NotoSerifKR-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
   <!-- Other metadata or stylesheets -->
 </head>
 
