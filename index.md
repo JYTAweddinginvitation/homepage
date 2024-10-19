@@ -71,9 +71,7 @@ title: Junyoung + Thuc Anh
     </section>
 
     <div class="countdown-container">
-        <p style="text-align: center;"><strong id="countdown-message"></strong></p>
-    </div>
-
+      <p style="text-align: center;" id="countdown-message"></p>    </div>
     <script>
         // Function to calculate and update the days left or passed
         function updateCountdown() {
