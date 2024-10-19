@@ -71,21 +71,29 @@ title: Junyoung + Thuc Anh
 
     <div class="countdown-container">
         <h2>D-Day Countdown</h2>
-        <p>There are <strong id="days-left"></strong> days left until the big day!</p>
+        <p><strong id="countdown-message"></strong></p>
     </div>
 
     <script>
-        // Function to calculate and update the days left
+        // Function to calculate and update the days left or passed
         function updateCountdown() {
             const weddingDate = new Date("January 11, 2025").getTime();
             const today = new Date().getTime();
             const timeDifference = weddingDate - today;
 
-            // Convert time difference from milliseconds to days
-            const daysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+            const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+
+            let countdownMessage = "";
+            if (daysDifference > 0) {
+                countdownMessage = `There are ${daysDifference} days left until the big day!`;
+            } else if (daysDifference === 0) {
+                countdownMessage = "Today is the big day!";
+            } else {
+                countdownMessage = `It has been ${Math.abs(daysDifference)} days since the big day!`;
+            }
 
             // Update the countdown display
-            document.getElementById("days-left").textContent = daysLeft;
+            document.getElementById("countdown-message").textContent = countdownMessage;
         }
 
         // Call the function to update the countdown
