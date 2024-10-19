@@ -10,26 +10,30 @@
   }
 }
 
+/* Ensure multiple formats for broader compatibility */
 @font-face {
   font-family: 'NotoSerifKR';
-  src: url('/homepage/fonts/NotoSerifKR-Bold.ttf') format('truetype');
+  src: url('/homepage/fonts/NotoSerifKR-Bold.woff2') format('woff2'),
+       url('/homepage/fonts/NotoSerifKR-Bold.woff') format('woff'),
+       url('/homepage/fonts/NotoSerifKR-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
+/* Apply the custom font globally with !important */
 html {
   --primary-background-color: white;
   --primary-text-color: #555; /* Softer gray instead of black */
   --primary-highlight-color: #eeeeee;
   padding: 0;
   margin: 0;
-  font-family: 'NotoSerifKR', sans-serif; /* Apply the custom font globally */
+  font-family: 'NotoSerifKR' !important, sans-serif; /* Force custom font globally */
 }
 
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  font-family: 'NotoSerifKR', sans-serif; /* Apply the custom font globally */
+  font-family: 'NotoSerifKR' !important, sans-serif; /* Force custom font globally */
   transition: background 0.1s ease-in, color 0.1s ease-in;
   margin: 0 auto;
   max-width: 480px; /* Ensure content is limited to 480px */
@@ -59,7 +63,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
-    font-family: 'NotoSerifKR', sans-serif; /* Apply custom font to headings */
+    font-family: 'NotoSerifKR' !important, sans-serif; /* Force custom font for headings */
   }
 }
 
@@ -92,7 +96,7 @@ body {
     a {
       text-decoration: none;
       color: var(--primary-text-color);
-      font-family: 'NotoSerifKR', sans-serif; /* Apply custom font to links */
+      font-family: 'NotoSerifKR' !important, sans-serif; /* Force custom font for links */
 
       &:hover {
         border-bottom: 2px solid var(--primary-text-color);
@@ -134,7 +138,7 @@ body {
       flex-grow: 2;
       text-align: left;
       margin: 10px;
-      font-family: 'NotoSerifKR', sans-serif; /* Apply custom font to headings */
+      font-family: 'NotoSerifKR' !important, sans-serif; /* Force custom font for headings */
     }
 
     ul {
@@ -153,7 +157,7 @@ body {
         a {
           text-decoration: none;
           color: var(--primary-text-color);
-          font-family: 'NotoSerifKR', sans-serif; /* Apply custom font to links */
+          font-family: 'NotoSerifKR' !important, sans-serif; /* Force custom font for links */
 
           &:hover {
             border-bottom: 2px solid var(--primary-text-color);
@@ -194,7 +198,7 @@ body {
 
     a {
       color: var(--primary-text-color);
-      font-family: 'NotoSerifKR', sans-serif; /* Apply custom font to links */
+      font-family: 'NotoSerifKR' !important, sans-serif; /* Force custom font for links */
     }
   }
 }
@@ -229,7 +233,7 @@ body {
     text-decoration: none; /* No underline */
     padding: 3px 10px; /* Smaller padding for a compact design */
     font-size: 16px; /* Reduced font size */
-    font-family: 'NotoSerifKR', sans-serif; /* Apply custom font */
+    font-family: 'NotoSerifKR' !important, sans-serif; /* Force custom font */
     transition: none; /* Completely remove any hover effect */
   }
 
