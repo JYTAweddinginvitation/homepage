@@ -62,7 +62,7 @@ title: Junyoung + Thuc Anh
     <p>·</p>
     <p>RSVP</p>
     <p>·</p>
-    <p>Location: <strong><a href="#location">La Vela Saigon</a></strong></p>
+    <p>Location: <strong><a href="#location">La Vela Saigon</a></strong>, 5th floor, Jupiter Hall</p>
             <img src="/homepage/calender.jpg" alt="calender" style="width: 100%; max-width: 480px; height: auto; display: block; margin: 0 auto;">
 
   
