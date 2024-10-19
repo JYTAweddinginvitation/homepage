@@ -62,7 +62,7 @@ title: Junyoung + Thuc Anh
     <p>RSVP</p>
     <p>·</p>
     <p>Location: <strong><a href="#location">La Vela Saigon</a></strong></p>
-    <img src="/homepage/calender.jpg" alt="calender" style="width: 420px; height: 420px; display: block; margin: 0 auto;">
+            <img src="/homepage/calender.jpg" alt="calender" style="width: 100%; max-width: 480px; height: auto; display: block; margin: 0 auto;">
 
   
     <p>Date: Saturday, January 11th, 2025, 6:30 PM</p>
