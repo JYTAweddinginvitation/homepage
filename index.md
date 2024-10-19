@@ -54,7 +54,8 @@ title: Junyoung + Thuc Anh
     <p>·</p>
     <p>After many tearful goodbyes at the airport,</p>
     <p>we've promised to never apart again,</p>
-    <p>and to board the same flight for the rest of our lives.</p>
+    <p>and to board the same flight</p>
+    <p>for the rest of our lives.</p>
     <p>·</p>
     <p>We would be honored if you could join us</p>
     <p>at the beginning of our new chapter.</p>
